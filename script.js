@@ -40,7 +40,13 @@ function update() {
 // get client ID and public key
 clientId = generateClientId();
 publicKey = getPublicKey();
+//...
 
+// add event listener to banana button
+document.querySelector("#banana-btn").addEventListener("click", addScore);
+document.querySelector("#banana-btn").addEventListener("touchstart", addScore);
+
+//...
 // add event listener to banana button
 document.querySelector("#banana-btn").addEventListener("click", function() {
   addScore();

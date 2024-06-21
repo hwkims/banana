@@ -32,6 +32,17 @@ body {
   padding: 0;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); add a subtle shadow */
 }
+/*... */
+
+#banana-btn {
+  /*... */
+  cursor: pointer;
+  padding: 0;
+  /*... */
+  touch-action: manipulation; /* add this to enable touch events */
+}
+
+/*... */
 
 #banana-btn img {
   width: 100%;
